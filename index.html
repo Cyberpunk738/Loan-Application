@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Loan Application</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Loan Application</h1>
+            <input type="text" id="fullName" placeholder="Full name" required>
+            <input type="email" name="" id="" placeholder="Email address" required>
+            <input type="number" id="amount" placeholder="Amount">
+            <input type="text" placeholder="Collateral" required>
+            <input type="text" placeholder="Account Name" required>
+            <input type="text" placeholder="Account Number" required>
+            <input type="text" placeholder="Bank Name" required>
+            <button type="button" onclick="showSection()">Submit Application</button>
+        </div>
+        <div class="submitted">
+            <h2>Loan Application</h2>
+            <i class="fas fa-rocket"></i>
+            <h3>Application Successfully Received</h3>
+            <p class="summary"><strong>Name:</strong> <span id="summaryName"></span></p>
+            <p class="summary"><strong>Amount requested:</strong> <span id="summaryAmount"></span></p>
+            <p>Check your mail for more details.</p>
+        </div>
+    </main>
+    <section>
+
+        <script src="script.js"></script>
+
+    </section>
+</body>
+</html>
